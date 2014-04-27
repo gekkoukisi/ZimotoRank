@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZimotoRank/ZimotoRank.iml" filepath="$PROJECT_DIR$/ZimotoRank/ZimotoRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZimotoRankProject.iml" filepath="$PROJECT_DIR$/ZimotoRankProject.iml" />
+    </modules>
+  </component>
+</project>
+

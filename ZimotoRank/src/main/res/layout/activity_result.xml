@@ -1,0 +1,65 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffdb00">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/yourplace"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:textAlignment="gravity"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/ranktype"
+        android:layout_below="@+id/yourplace"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/placename"
+        android:layout_below="@+id/ranktype"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/rank"
+        android:layout_below="@+id/hotelname"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/detail"
+        android:layout_below="@+id/rank"
+        android:singleLine="false"
+        android:layout_alignRight="@+id/rank"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
